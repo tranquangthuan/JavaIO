@@ -16,7 +16,7 @@ public class ReadFileByFileInputStream {
 		while ((ch = fin.read()) != -1) {
 			System.out.print((char) ch);
 		}
-		//fin.close();
+		fin.close();
 
 	}
 
