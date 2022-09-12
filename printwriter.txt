@@ -1,0 +1,6 @@
+I love Java
+?
+!
+10.5
+true
+My name is Awesome!

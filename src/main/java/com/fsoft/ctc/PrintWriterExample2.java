@@ -8,7 +8,7 @@ public class PrintWriterExample2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		File filePrintWriter = new File("printwriter.txt");
+		File filePrintWriter = new File("D://JavaIO//printwriter.txt");
 
 		try {
 			// creating object of PrintWriter class with File object
@@ -20,11 +20,9 @@ public class PrintWriterExample2 {
 			// method to terminate the current line by writing the
 			// line separator string
 			printWriter.println();
-			// unicode character for happy face
-			printWriter.append('\u263A');
 			printWriter.println();
 			// ASCII
-			printWriter.write(33);
+			printWriter.write(65);
 			printWriter.println();
 			printWriter.println(10.5);
 			printWriter.println(true);

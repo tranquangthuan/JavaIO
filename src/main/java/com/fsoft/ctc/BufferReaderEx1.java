@@ -12,7 +12,7 @@ public class BufferReaderEx1 {
 		FileReader reader;
 		BufferedReader br = null;
 		try {
-			reader = new FileReader("D://bufferreader.txt");
+			reader = new FileReader("D://JavaIO//bufferreader.txt");
 			br = new BufferedReader(reader);
 
 			// read line by line

@@ -8,7 +8,7 @@ public class FileWriterExample {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		File fileFileWriter = new File("filewriter.txt");
+		File fileFileWriter = new File("D://JavaIO//FileWriterExample.txt");
 
 		String newLine = System.getProperty("line.separator");
 

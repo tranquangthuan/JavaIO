@@ -11,7 +11,7 @@ public class ObjectInputStreamExample {
 		ObjectInputStream ois = null;
 
 		try {
-			ois = new ObjectInputStream(new FileInputStream("D:\\objectOutStream.txt"));
+			ois = new ObjectInputStream(new FileInputStream("D://JavaIO//objectOutStream.txt"));
 			// read student
 			Student student = (Student) ois.readObject();
 			// show student
