@@ -18,11 +18,9 @@ public class FileWriterExample {
 			// parameter
 			FileWriter fileWriter = new FileWriter(fileFileWriter, true);
 			fileWriter.write("I love Java");
-			fileWriter.append(newLine).append('\u263A').append(newLine);
-			fileWriter.write(33);
+			fileWriter.append(newLine);
+			fileWriter.write(65);
 			fileWriter.write(10);
-//			fileWriter.write(10.5);
-//			fileWriter.write(true);
 			// format() method of String class returns a formatted string
 			// using the specified format string and arguments
 			fileWriter.append(String.format("My name is %s", "Awesome!"));
