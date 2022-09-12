@@ -11,11 +11,11 @@ public class ObjectInputStreamExample {
 		ObjectInputStream ois = null;
 
 		try {
-			ois = new ObjectInputStream(new FileInputStream("D:\\testout.txt"));
+			ois = new ObjectInputStream(new FileInputStream("D:\\objectOutStream.txt"));
 			// read student
 			Student student = (Student) ois.readObject();
 			// show student
-			System.out.println(student.toString());
+			System.out.println(student);
 		} catch (ClassNotFoundException ex) {
 			ex.printStackTrace();
 		} catch (IOException ex) {

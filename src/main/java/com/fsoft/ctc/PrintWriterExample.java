@@ -9,8 +9,8 @@ public class PrintWriterExample {
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
 		PrintWriter writer = new PrintWriter(System.out);
-		writer.write("VietTuts.Vn: ");
-		//System.out.print(true);
+		writer.write("Abc.com.Vn");
+		// System.out.print(true);
 		writer.print(true);
 		writer.flush();
 		writer.close();

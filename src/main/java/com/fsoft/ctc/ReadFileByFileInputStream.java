@@ -10,7 +10,7 @@ public class ReadFileByFileInputStream {
 
 		FileInputStream fin = new FileInputStream("D://Data.txt");
 		System.out.println("Number of remaining bytes:" + fin.available());
-		fin.skip(5);
+		//fin.skip(5);
 		System.out.println("File content");
 		int ch;
 		while ((ch = fin.read()) != -1) {
