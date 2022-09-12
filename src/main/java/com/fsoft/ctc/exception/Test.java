@@ -24,6 +24,19 @@ public class Test {
 //		}
 //		System.out.println("rest of the code...");
 
+		// Catch tu Chi tiet den chung nhat, Loi compiler
+//		try {
+//            int a[] = new int[5];
+//            a[5] = 30 / 0;
+//        } catch (Exception e) {
+//            System.out.println("common task completed");
+//        } catch (ArithmeticException e) {
+//            System.out.println("task1 is completed");
+//        } catch (ArrayIndexOutOfBoundsException e) {
+//            System.out.println("task2 is completed");
+//        }
+//        System.out.println("rest of the code...");
+
 //		try {
 //			int data = 25 / 0;
 //			System.out.println(data);
@@ -34,7 +47,7 @@ public class Test {
 //		}
 //		System.out.println("rest of the code...");
 
-		System.out.println(testFinalMethod());
+		// System.out.println(testFinalMethod());
 	}
 
 	@SuppressWarnings("finally")

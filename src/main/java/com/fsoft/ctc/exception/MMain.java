@@ -14,6 +14,8 @@ public class MMain {
 			System.out.println(e.getMessage());
 		}
 		System.out.println("after exception");
+
+		// m.method2();
 	}
 
 }
